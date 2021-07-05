@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-instagram-clone"]=this["webpackJsonpreact-instagram-clone"]||[]).push([[0],{9:function(e,c,t){"use strict";t.r(c);var n=t(1),r=t.n(n),a=t(3),s=t.n(a),i=t(0);var d=function(){return Object(i.jsx)("div",{className:"App",children:Object(i.jsx)("header",{className:"App-header",children:Object(i.jsx)("p",{children:"Hi "})})})};s.a.render(Object(i.jsx)(r.a.StrictMode,{children:Object(i.jsx)(d,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.03d7645b.chunk.js.map

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/amopho/react-instagram-clone.git/static/js/main.03d7645b.chunk.js",
+    "main.js.map": "/amopho/react-instagram-clone.git/static/js/main.03d7645b.chunk.js.map",
+    "runtime-main.js": "/amopho/react-instagram-clone.git/static/js/runtime-main.70c1fe64.js",
+    "runtime-main.js.map": "/amopho/react-instagram-clone.git/static/js/runtime-main.70c1fe64.js.map",
+    "static/js/2.a42eabc9.chunk.js": "/amopho/react-instagram-clone.git/static/js/2.a42eabc9.chunk.js",
+    "static/js/2.a42eabc9.chunk.js.map": "/amopho/react-instagram-clone.git/static/js/2.a42eabc9.chunk.js.map",
+    "index.html": "/amopho/react-instagram-clone.git/index.html",
+    "static/js/2.a42eabc9.chunk.js.LICENSE.txt": "/amopho/react-instagram-clone.git/static/js/2.a42eabc9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70c1fe64.js",
+    "static/js/2.a42eabc9.chunk.js",
+    "static/js/main.03d7645b.chunk.js"
+  ]
+}
