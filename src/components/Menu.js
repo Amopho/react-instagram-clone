@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BiSearchAlt } from "react-icons/bi";
+import { CgHome } from "react-icons/cg";
+import { FiSend } from "react-icons/fi";
+import { MdExplore } from "react-icons/md";
+import { FiHeart } from "react-icons/fi";
+import { FiUser } from "react-icons/fi";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Photo from "./Photo";
 
@@ -22,19 +28,29 @@ const Menu = () => {
         <div class="menu">
           <ul class="menu-list">
             <Link>
-              <li>Home</li>
+              <li>
+                <CgHome />
+              </li>
             </Link>
             <Link to="/">
-              <li>Share</li>
+              <li>
+                <FiSend />
+              </li>
             </Link>
             <Link to="/">
-              <li>Explore</li>
+              <li>
+                <MdExplore />
+              </li>
             </Link>
             <Link to="/">
-              <li>Activity</li>
+              <li>
+                <FiHeart />
+              </li>
             </Link>
             <Link to="/">
-              <li>User avatar</li>
+              <li>
+                <FiUser />
+              </li>
             </Link>
           </ul>
         </div>
