@@ -18,17 +18,17 @@ header li {
   border-left: 30px solid white;
   border-right: 30px solid white;
 }
+
 nav li {
   list-style: none;
   color: black;
   margin: 0.5rem;
   font-size: 1rem;
-}
-
-nav li:hover {
-  color: #303030;
-  transition: 0.3s;
-  padding: -10px;
+  li:hover {
+    color: #303030;
+    transition: 0.3s;
+    padding: -10px;
+  }
 }
 
 #logo-wrapper {
