@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/amopho/react-instagram-clone.git/static/js/main.03d7645b.chunk.js",
-    "main.js.map": "/amopho/react-instagram-clone.git/static/js/main.03d7645b.chunk.js.map",
+    "main.css": "/amopho/react-instagram-clone.git/static/css/main.2ce1c0c6.chunk.css",
+    "main.js": "/amopho/react-instagram-clone.git/static/js/main.eee2e1c4.chunk.js",
+    "main.js.map": "/amopho/react-instagram-clone.git/static/js/main.eee2e1c4.chunk.js.map",
     "runtime-main.js": "/amopho/react-instagram-clone.git/static/js/runtime-main.70c1fe64.js",
     "runtime-main.js.map": "/amopho/react-instagram-clone.git/static/js/runtime-main.70c1fe64.js.map",
-    "static/js/2.a42eabc9.chunk.js": "/amopho/react-instagram-clone.git/static/js/2.a42eabc9.chunk.js",
-    "static/js/2.a42eabc9.chunk.js.map": "/amopho/react-instagram-clone.git/static/js/2.a42eabc9.chunk.js.map",
+    "static/js/2.9797fd00.chunk.js": "/amopho/react-instagram-clone.git/static/js/2.9797fd00.chunk.js",
+    "static/js/2.9797fd00.chunk.js.map": "/amopho/react-instagram-clone.git/static/js/2.9797fd00.chunk.js.map",
     "index.html": "/amopho/react-instagram-clone.git/index.html",
-    "static/js/2.a42eabc9.chunk.js.LICENSE.txt": "/amopho/react-instagram-clone.git/static/js/2.a42eabc9.chunk.js.LICENSE.txt"
+    "static/css/main.2ce1c0c6.chunk.css.map": "/amopho/react-instagram-clone.git/static/css/main.2ce1c0c6.chunk.css.map",
+    "static/js/2.9797fd00.chunk.js.LICENSE.txt": "/amopho/react-instagram-clone.git/static/js/2.9797fd00.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.70c1fe64.js",
-    "static/js/2.a42eabc9.chunk.js",
-    "static/js/main.03d7645b.chunk.js"
+    "static/js/2.9797fd00.chunk.js",
+    "static/css/main.2ce1c0c6.chunk.css",
+    "static/js/main.eee2e1c4.chunk.js"
   ]
 }
