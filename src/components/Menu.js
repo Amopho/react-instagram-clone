@@ -13,7 +13,7 @@ import Photo from "./Photo";
 const Menu = () => {
   return (
     <header>
-      <Link class="logo" to="home">
+      <Link className="logo" to="home">
         <li>Instagram</li>
       </Link>
       <div className="area">
