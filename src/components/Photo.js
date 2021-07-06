@@ -1,6 +1,8 @@
 import Data from "../data.json";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useState } from "react";
+import Image from "react-bootstrap/Image";
+import Card from "react-bootstrap/Card";
 
 const Photo = () => {
   const [data, setData] = useState(Data);

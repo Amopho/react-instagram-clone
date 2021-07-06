@@ -43,5 +43,10 @@
     "id": 8,
     "title": "white",
     "img": "./images/white-3.jpg"
+  },
+  {
+    "id": 9,
+    "title": "white",
+    "img": "./images/briohny-avatar.png"
   }
 ]

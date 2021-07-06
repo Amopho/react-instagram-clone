@@ -134,3 +134,9 @@ npm i axios
 ```
 $ npm install normalize-scss
 ```
+
+## To play with react emojis
+
+```
+npm i emoji-picker-react
+```

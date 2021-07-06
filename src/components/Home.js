@@ -8,6 +8,7 @@ const Home = () => {
   console.log(process.env);
   return (
     <Router>
+      {/* Avatar photo */}
       <img
         src={`${process.env.PUBLIC_URL}/${data[0].img}`}
         alt="Pink glasses"
