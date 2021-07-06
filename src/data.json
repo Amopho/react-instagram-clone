@@ -1,37 +1,47 @@
 [
   {
     "id": 0,
-    "title": "sunset while yoga",
+    "title": "caption white",
     "img": "./images/captions-1.jpg"
   },
   {
     "id": 1,
-    "title": "sunset while yoga",
+    "title": "caption yoga",
     "img": "./images/captions.jpg"
   },
   {
-    "id": 1,
-    "title": "sunset while yoga",
-    "img": "./images/captions.jpg"
+    "id": 2,
+    "title": "yoga vibes",
+    "img": "./images/captions-2.jpg"
   },
   {
-    "id": 1,
+    "id": 3,
     "title": "sunset while yoga",
-    "img": "./images/captions.jpg"
+    "img": "./images/yoga-sunset.jpg"
   },
   {
-    "id": 1,
+    "id": 4,
     "title": "sunset while yoga",
-    "img": "./images/captions.jpg"
+    "img": "./images/yoga-sunset-1.jpg"
   },
   {
-    "id": 1,
+    "id": 5,
     "title": "sunset while yoga",
-    "img": "./images/captions.jpg"
+    "img": "./images/yoga-sunset-2.jpg"
   },
   {
-    "id": 1,
-    "title": "sunset while yoga",
-    "img": "./images/captions.jpg"
+    "id": 6,
+    "title": "white yoga",
+    "img": "./images/white-1.jpg"
+  },
+  {
+    "id": 7,
+    "title": "yoga",
+    "img": "./images/white-2.jpg"
+  },
+  {
+    "id": 8,
+    "title": "white",
+    "img": "./images/white-3.jpg"
   }
 ]
