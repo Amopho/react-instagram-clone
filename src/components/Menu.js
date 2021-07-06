@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BiSearchAlt } from "react-icons/bi";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Photo from "./Photo";
 
 const Menu = () => {
   return (
@@ -19,7 +21,7 @@ const Menu = () => {
       <nav>
         <div class="menu">
           <ul class="menu-list">
-            <Link to="/">
+            <Link>
               <li>Home</li>
             </Link>
             <Link to="/">
