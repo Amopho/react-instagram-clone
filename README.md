@@ -12,8 +12,6 @@ git clone https://github.com/amopho/react-instagram-clone.git
 
 #### npm install
 
-npm install
-
 #### npm start
 
 # Getting Started with Create React App
