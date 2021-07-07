@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Photo from "./Photo";
 import { BiSearchAlt } from "react-icons/bi";
 import { CgHome } from "react-icons/cg";
 import { FiSend } from "react-icons/fi";
@@ -8,32 +7,9 @@ import { MdExplore } from "react-icons/md";
 import { FiHeart } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-import Image from "react-bootstrap/Image";
-import Card from "react-bootstrap/Card";
-
-const Menu = () => {
+const FilterBar = () => {
   return (
     <header>
-      {/* <Switch>
-        <Route
-          path={`${process.env.PUBLIC_URL}/`}
-          exact
-          component={UserDescription}
-        />
-      </Switch> */}
-      <Link className="logo" to="home">
-        <li>Instagram</li>
-      </Link>
-      <div className="area">
-        <form>
-          <input type="text" placeholder="Search" />
-          <button className="search-icon" type="submit">
-            <BiSearchAlt />
-          </button>
-        </form>
-      </div>
       <nav>
         <div class="menu">
           <ul class="menu-list">
@@ -69,4 +45,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default FilterBar;
