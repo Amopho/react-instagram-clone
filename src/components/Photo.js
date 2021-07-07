@@ -9,10 +9,19 @@ const Photo = () => {
   console.log(process.env);
   return (
     <Router>
-      <img
+      {/* <img
         src={`${process.env.PUBLIC_URL}/${data[2].img}`}
         alt="Pink glasses"
-      />
+      /> */}
+
+      <Card>
+        <Card.Img
+          style={{ width: "15rem", height: "15rem" }}
+          src={`${process.env.PUBLIC_URL}/${data[4].img}`}
+          alt="Hand with soaking water"
+          fluid
+        />
+      </Card>
     </Router>
   );
 };
