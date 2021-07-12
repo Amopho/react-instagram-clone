@@ -4,14 +4,13 @@ import React, { useState } from "react";
 import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 
-const Photo = ({ info }) => {
-  const { id, img } = info;
-  // const [data, setData] = useState(Data);
+const Photo = ({ data }) => {
+  const { id, img } = data;
   // console.log(process.env);
   return (
     <li key={id}>
       <Card className="photo-container">
-        <Card.Img src={`${process.env.PUBLIC_URL}/${img}`} />
+        <Card.Img src={`${process.env.PUBLIC_URL}/${data.img}`} />
         <Card.Body></Card.Body>
       </Card>
     </li>

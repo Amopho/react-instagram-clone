@@ -2,7 +2,7 @@ import React from "react";
 import Photo from "./Photo";
 
 const PhotoList = ({ data }) => {
-  const items = data.map((item, i) => <Photo key={i} info={item} />);
+  const items = data.map((item, i) => <Photo key={i} data={item} />);
 
   return (
     <React.Fragment>
