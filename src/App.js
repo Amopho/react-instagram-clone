@@ -10,11 +10,9 @@ import Soon from "./components/Soon";
 import PhotoList from "./components/PhotoList";
 import Data from "./data.json";
 import Tshirts from "./tshirts.json";
-import ProductList from "./components/ProductList";
 
 function App() {
   const [data, setData] = useState(Data);
-  const [tshirts, setTshirts] = useState(Tshirts);
 
   return (
     <Router>
@@ -26,7 +24,6 @@ function App() {
         <Soon />
       </Route> */}
       <PhotoList data={data} />
-      {/* <ProductList tshirts={tshirts} /> */}
       <Footer />
     </Router>
   );

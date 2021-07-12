@@ -10,12 +10,8 @@ const Photo = ({ info }) => {
   // console.log(process.env);
   return (
     <li key={id}>
-      <h2>Hi</h2>
-      <Card style={{ width: "15rem", height: "15rem" }}>
-        <Card.Img
-          src={`${process.env.PUBLIC_URL}/${img}`}
-          alt="Hand with soaking water"
-        />
+      <Card className="photo-container">
+        <Card.Img src={`${process.env.PUBLIC_URL}/${img}`} />
         <Card.Body></Card.Body>
       </Card>
     </li>
