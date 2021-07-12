@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "productName": "black tshirt",
+    "img": "./images/t-shirt-1.jpg",
+    "price": 34.99,
+    "inventory": 0
+  },
+  {
+    "id": 1,
+    "productName": "white tshirt",
+    "img": "./images/t-shirt-2.jpg",
+    "price": 24.99,
+    "inventory": 3
+  },
+  {
+    "id": 2,
+    "productName": "rose tshirt",
+    "img": "./images/t-shirt-3.jpg",
+    "price": 29.99,
+    "inventory": 100
+  }
+]
