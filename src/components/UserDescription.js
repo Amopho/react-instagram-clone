@@ -23,7 +23,7 @@ const UserDescription = () => {
         </Card>
       </div>
       <div className="descr">
-        <p>yogawithbriohny</p>
+        <h2>yogawithbriohny</h2>
         <span id="approved-icon">
           {" "}
           <FcApproval />

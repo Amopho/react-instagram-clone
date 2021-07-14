@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BiSearchAlt } from "react-icons/bi";
-import { CgHome } from "react-icons/cg";
-import { FiSend } from "react-icons/fi";
-import { MdExplore } from "react-icons/md";
-import { FiHeart } from "react-icons/fi";
-import { FiUser } from "react-icons/fi";
+import { BiGrid } from "react-icons/bi";
+import { BiMovie } from "react-icons/bi";
+
+import { RiMovieLine } from "react-icons/ri";
+import { HiOutlineTag } from "react-icons/hi";
 
 const FilterBar = () => {
   return (
@@ -14,7 +14,7 @@ const FilterBar = () => {
         <Link>
           <li>
             <span>
-              <CgHome /> POSTS
+              <BiGrid /> POSTS
             </span>
           </li>
         </Link>
@@ -22,7 +22,7 @@ const FilterBar = () => {
           <li>
             <span>
               {" "}
-              <FiSend />
+              <BiMovie />
               REELS
             </span>
           </li>
@@ -31,14 +31,14 @@ const FilterBar = () => {
           <li>
             <spam>
               {" "}
-              <MdExplore /> IGTV
+              <RiMovieLine /> IGTV
             </spam>
           </li>
         </Link>
         <Link to="/">
           <li>
             <spam>
-              <FiHeart /> TAGGED{" "}
+              <HiOutlineTag /> TAGGED{" "}
             </spam>
           </li>
         </Link>
