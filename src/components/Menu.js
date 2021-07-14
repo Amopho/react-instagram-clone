@@ -16,7 +16,7 @@ const Menu = () => {
   const [general, setGeneral] = useState(General);
 
   return (
-    <header>
+    <header className="nav-container">
       {/* <Switch>
         <Route
           path={`${process.env.PUBLIC_URL}/`}
@@ -26,12 +26,14 @@ const Menu = () => {
       </Switch> */}
       <nav className="navbar">
         <Link to="home">
-          <span className="logo">
-            <img
-              src={`${process.env.PUBLIC_URL}/${general[1].img}`}
-              style={{ width: "30%" }}
-            />
-          </span>
+          <div id="logo-wrapper">
+            <span className="logo">
+              <img
+                src={`${process.env.PUBLIC_URL}/${general[1].img}`}
+                style={{ width: "15%" }}
+              />
+            </span>
+          </div>
         </Link>
         <div className="area">
           <form>
@@ -41,8 +43,7 @@ const Menu = () => {
             </button>
           </form>
         </div>
-
-        <div class="navbar__links">
+        <div class="icons__links">
           <ul>
             <Link>
               <li>

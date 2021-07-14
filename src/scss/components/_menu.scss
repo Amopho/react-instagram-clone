@@ -10,22 +10,35 @@ header {
     // background-size: cover;
     // background-repeat: no-repeat;
   }
-  .navbar-container {
-    width: 100vw;
-    height: 33vh;
+  .navbar {
+    width: 90vw;
+    height: 10vh;
     background-color: white;
     opacity: none;
-    @include flex(inline-block, center, space-between);
-    padding-top: 4rem;
-    font-family: $Pacifico;
-
+    @include flex(inline-block, center, space-evenly);
+    padding-top: 0.5rem;
     // @include max(768px) {
     //   padding-top: 2.4375rem;
     // }
-    .logo {
-      z-index: 100;
-      font-family: $Pacifico;
+    #logo-wrapper {
+      .logo img {
+        margin: 15px;
+        width: 150px;
+        z-index: 100;
+      }
     }
+    .area {
+      //   border: 1px solid gray;
+      border-radius: 50px;
+      height: 25px;
+      width: 40vw;
+      font-size: 12px;
+      padding: 10px;
+      &:focus {
+        outline: none;
+      }
+    }
+
     .navbar {
       display: flex;
       display: inline-block;
@@ -41,7 +54,7 @@ header {
         margin-top: 9px;
       }
       li {
-        font-size: 50px;
+        font-size: 100px;
         font-weight: 700;
         letter-spacing: 0.6px;
         margin-top: 2px;
@@ -51,7 +64,7 @@ header {
         &:last-child {
           margin-right: 0px;
         }
-        Link {
+        a {
           color: black;
           position: relative;
           &::after {
