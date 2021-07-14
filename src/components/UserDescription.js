@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Data from "../data.json";
-import { FiArrowDownCircle } from "react-icons/fi";
+import { FcApproval } from "react-icons/fc";
 import Button from "react-bootstrap/Button";
 import { FiUserPlus } from "react-icons/fi";
 import Image from "react-bootstrap/Image";
@@ -23,7 +23,11 @@ const UserDescription = () => {
         </Card>
       </div>
       <div className="descr">
-        <h1>yogawithbriohny</h1>
+        <p>yogawithbriohny</p>
+        <span id="approved-icon">
+          {" "}
+          <FcApproval />
+        </span>
         <Button>Send a message</Button>
         <Button>
           <FiUserPlus />
