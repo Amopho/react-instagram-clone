@@ -9,39 +9,35 @@ import { FiUser } from "react-icons/fi";
 
 const FilterBar = () => {
   return (
-    <header>
-      <nav>
-        <div class="menu">
-          <ul class="menu-list">
-            <Link>
-              <li>
-                <CgHome />
-              </li>
-            </Link>
-            <Link to="/">
-              <li>
-                <FiSend />
-              </li>
-            </Link>
-            <Link to="/">
-              <li>
-                <MdExplore />
-              </li>
-            </Link>
-            <Link to="/">
-              <li>
-                <FiHeart />
-              </li>
-            </Link>
-            <Link to="/">
-              <li>
-                <FiUser />
-              </li>
-            </Link>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <div class="menu">
+      <ul class="menu-list">
+        <Link>
+          <li>
+            <CgHome />
+          </li>
+        </Link>
+        <Link to="/">
+          <li>
+            <FiSend />
+          </li>
+        </Link>
+        <Link to="/">
+          <li>
+            <MdExplore />
+          </li>
+        </Link>
+        <Link to="/">
+          <li>
+            <FiHeart />
+          </li>
+        </Link>
+        <Link to="/">
+          <li>
+            <FiUser />
+          </li>
+        </Link>
+      </ul>
+    </div>
   );
 };
 

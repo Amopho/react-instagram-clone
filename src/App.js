@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Menu from "./components/Menu";
 import FilterBar from "./components/FilterBar";
 import UserDescription from "./components/UserDescription";
-import Photo from "./components/Photo";
 import Footer from "./components/Footer";
 import Soon from "./components/Soon";
 import PhotoList from "./components/PhotoList";

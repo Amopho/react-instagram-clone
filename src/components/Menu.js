@@ -35,14 +35,12 @@ const Menu = () => {
             </span>
           </div>
         </Link>
-        <div className="area">
-          <form>
-            <input type="text" placeholder="Search" />
-            <button className="search-icon" type="submit">
-              <BiSearchAlt />
-            </button>
-          </form>
-        </div>
+        <form className="area">
+          <input type="text" placeholder="Search" />
+          <button className="search-icon" type="submit">
+            <BiSearchAlt />
+          </button>
+        </form>
         <div class="icons__links">
           <ul>
             <Link>
