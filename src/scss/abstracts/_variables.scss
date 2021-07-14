@@ -1,10 +1,17 @@
 //Variables
 // hex monochromatic colors
-$white: #ffffff;
-$ligth-gray: #cacaca;
-$middle-gray: #acacac;
-$dark-gray: #868686;
-$black: #000000;
+$white: rgb(255, 255, 255);
+$ligth-gray: rgba(202, 202, 202, 0.4);
+$middle-gray: rgba(172, 172, 172, 1);
+$dark-gray: rgba(134, 134, 134, 1);
+$black: rgb(0, 0, 0);
+
+// HEX
+// #ffffff
+// #cacaca
+// #acacac
+// #868686
+// #000000
 
 // //TEAL COLORS
 // $dark-teal: #477981;

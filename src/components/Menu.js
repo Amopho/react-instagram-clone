@@ -30,7 +30,7 @@ const Menu = () => {
             <span className="logo">
               <img
                 src={`${process.env.PUBLIC_URL}/${general[1].img}`}
-                style={{ width: "15%" }}
+                style={{ width: "20%" }}
               />
             </span>
           </div>

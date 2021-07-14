@@ -15,7 +15,12 @@ const UserDescription = () => {
       <div className="avatar">
         <Card>
           <Card.Img
-            style={{ width: "15rem", height: "15rem" }}
+            style={{
+              width: "10rem",
+              height: "10rem",
+              borderRadius: "6rem",
+              padding: "1rem",
+            }}
             src={`${process.env.PUBLIC_URL}/${data[9].img}`}
             alt="Hand with soaking water"
             roundedCircle
