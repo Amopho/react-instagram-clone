@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 import Soon from "./components/Soon";
 import PhotoList from "./components/PhotoList";
 import Data from "./data.json";
-import Tshirts from "./tshirts.json";
 
 function App() {
   const [data, setData] = useState(Data);

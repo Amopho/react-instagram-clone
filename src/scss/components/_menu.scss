@@ -1,0 +1,78 @@
+header {
+  // background-size: cover;
+  height: 20vh;
+  width: 100vw;
+  background-color: white;
+  opacity: none;
+  @include max(768px) {
+    // background: url(/images/mobile/image-hero.jpg);
+    height: 20vh;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+  }
+  .navbar-container {
+    width: 100vw;
+    height: 33vh;
+    background-color: white;
+    opacity: none;
+    @include flex(inline-block, center, space-between);
+    padding-top: 4rem;
+    font-family: $Pacifico;
+
+    // @include max(768px) {
+    //   padding-top: 2.4375rem;
+    // }
+    .logo {
+      z-index: 100;
+      font-family: $Pacifico;
+    }
+    .navbar {
+      display: flex;
+      display: inline-block;
+      width: 100vw;
+      height: 10vh;
+      background-color: transparent;
+      border-left: 30px solid white;
+      border-right: 30px solid white;
+    }
+    &__links {
+      ul {
+        @include flex(row, center, none);
+        margin-top: 9px;
+      }
+      li {
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        margin-top: 2px;
+        &:not(:last-child) {
+          margin-right: 31.5px;
+        }
+        &:last-child {
+          margin-right: 0px;
+        }
+        Link {
+          color: black;
+          position: relative;
+          &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            margin-top: 7px;
+            transform: scaleX(0);
+            transition: 0.3s ease-in-out;
+          }
+          &:hover::after {
+            width: 100%;
+            transform: scaleX(1);
+          }
+        }
+      }
+      @include max(768px) {
+        display: none;
+      }
+    }
+  }
+}

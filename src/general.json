@@ -1,0 +1,12 @@
+[
+  {
+    "id": 0,
+    "title": "bri on the rocks",
+    "img": "./images/briohny-avatar.png"
+  },
+  {
+    "id": 1,
+    "productName": "instagram caption",
+    "img": "./images/insta.png"
+  }
+]

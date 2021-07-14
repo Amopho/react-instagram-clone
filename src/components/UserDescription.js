@@ -12,7 +12,6 @@ const UserDescription = () => {
   console.log(process.env);
   return (
     <Router>
-      {/* Avatar photo */}
       <div className="avatar">
         <Card>
           <Card.Img

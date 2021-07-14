@@ -23,20 +23,21 @@ const Menu = () => {
           component={UserDescription}
         />
       </Switch> */}
-      <Link className="logo" to="home">
-        <li>Instagram</li>
-      </Link>
-      <div className="area">
-        <form>
-          <input type="text" placeholder="Search" />
-          <button className="search-icon" type="submit">
-            <BiSearchAlt />
-          </button>
-        </form>
-      </div>
-      <nav>
-        <div class="menu">
-          <ul class="menu-list">
+      <nav className="navbar">
+        <Link className="logo" to="home">
+          <span>Instagram</span>
+        </Link>
+        <div className="area">
+          <form>
+            <input type="text" placeholder="Search" />
+            <button className="search-icon" type="submit">
+              <BiSearchAlt />
+            </button>
+          </form>
+        </div>
+
+        <div class="navbar__links">
+          <ul>
             <Link>
               <li>
                 <CgHome />
