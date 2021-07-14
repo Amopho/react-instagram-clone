@@ -13,27 +13,33 @@ const FilterBar = () => {
       <ul class="menu-list">
         <Link>
           <li>
-            <CgHome />
+            <span>
+              <CgHome /> POSTS
+            </span>
           </li>
         </Link>
         <Link to="/">
           <li>
-            <FiSend />
+            <span>
+              {" "}
+              <FiSend />
+              REELS
+            </span>
           </li>
         </Link>
         <Link to="/">
           <li>
-            <MdExplore />
+            <spam>
+              {" "}
+              <MdExplore /> IGTV
+            </spam>
           </li>
         </Link>
         <Link to="/">
           <li>
-            <FiHeart />
-          </li>
-        </Link>
-        <Link to="/">
-          <li>
-            <FiUser />
+            <spam>
+              <FiHeart /> TAGGED{" "}
+            </spam>
           </li>
         </Link>
       </ul>

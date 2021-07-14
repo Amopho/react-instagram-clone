@@ -1,9 +1,8 @@
 header {
   // background-size: cover;
-  height: 20vh;
+  height: 10vh;
   width: 100vw;
   background-color: white;
-  opacity: none;
   @include max(768px) {
     // background: url(/images/mobile/image-hero.jpg);
     height: 20vh;
@@ -11,11 +10,10 @@ header {
     // background-repeat: no-repeat;
   }
   nav {
-    @include flex(inline-block, center, space-evenly);
+    @include flex(center, center, row);
     width: 100vw;
     height: 10vh;
     background-color: white;
-    opacity: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid rgb(202, 202, 202);
