@@ -10,7 +10,14 @@ const Photo = ({ data }) => {
   return (
     <li key={id}>
       <Card className="photo-container">
-        <Card.Img src={`${process.env.PUBLIC_URL}/${data.img}`} />
+        <Card.Img
+          style={{
+            width: "30rem",
+            height: "30rem",
+            padding: "1rem",
+          }}
+          src={`${process.env.PUBLIC_URL}/${data.img}`}
+        />
         <Card.Body></Card.Body>
       </Card>
     </li>
