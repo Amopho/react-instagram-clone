@@ -23,7 +23,6 @@ const UserDescription = () => {
             }}
             src={`${process.env.PUBLIC_URL}/${data[9].img}`}
             alt="Hand with soaking water"
-            roundedCircle
           />
         </Card>
       </div>
